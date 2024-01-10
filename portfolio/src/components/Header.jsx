@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import logo from "./assets/Lovepik_com-450044973-Vector Programming Icon.png"
-import phone from "./assets/telefone-tocando.png"
+import logo from "../assets/Lovepik_com-450044973-Vector Programming Icon.png"
 
 const Header = () => {
   return (
