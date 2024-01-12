@@ -8,8 +8,8 @@ const Header = () => {
         <img src={logo} alt='Logo do portfolio' />
         <div className="navbar">
           <a href="#">Sobre mim</a>
+          <a href="#">Tecnologias</a>
           <a href="#">Projetos</a>
-          <a href="#">Habilidades</a>
           <a href="#">Linktree</a>
         </div>
         <div className="language-change">

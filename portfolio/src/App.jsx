@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Home from './components/Home'
+import Projects from './components/Projects'
+import Technologies from './components/Technologies'
 import './App.css'
 
 function App() {
@@ -8,8 +10,10 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <Home/>
+    <Header />
+    <Home />
+    <Technologies />
+
     </>
   )
 }
