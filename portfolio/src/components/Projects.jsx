@@ -4,42 +4,29 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
+import "./Projects.css"
 
 const Projects = () => {
   return (
-    <div>
+    <div className="projects-container">
         <h3>Projetos</h3>
-        <div className="projects-container">
+        <div className="projects-card">
             <div className="card">
-                <img src={quizImg} alt="Tela inicial do projeto"/>
-                <div className="card-description">
-                    <h4>Quiz Front-End</h4>
-                    <p>Um quiz de front-end com perguntas sobre HTML, CSS, JavaScript e React.</p>
-                    <div className="card-footer">
-                        <div className="tec-icons">
-                            <FaHtml5 />
-                            <FaCss3 />
-                            <FaJsSquare />
-                            <FaReact />
-                        </div>
-                        <button>Ver mais</button>
-                    </div>
+                <img src={quizImg} className='card-img' />
+                <div className="card-body">
+                    <h1 className="card-title">NYC</h1>
+                    <p className="card-sub-title">New York City</p>
+                    <p className="card-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate doloribus, iure a laborum veniam, et velit vitae magni labore ipsum incidunt esse in quasi laboriosam architecto, nostrum facilis quidem dolor.</p>
+                    <button className="card-btn">Book tour</button>
                 </div>
             </div>
             <div className="card">
-                <img src={quizImg} alt="Tela inicial do projeto"/>
-                <div className="card-description">
-                    <h4>Quiz Front-End</h4>
-                    <p>Um quiz de front-end com perguntas sobre HTML, CSS, JavaScript e React.</p>
-                    <div className="card-footer">
-                        <div className="tec-icons">
-                            <FaHtml5 />
-                            <FaCss3 />
-                            <FaJsSquare />
-                            <FaReact />
-                        </div>
-                        <button>Ver mais</button>
-                    </div>
+                <img src={quizImg} className='card-img' />
+                <div className="card-body">
+                    <h1 className="card-title">NYC</h1>
+                    <p className="card-sub-title">New York City</p>
+                    <p className="card-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate doloribus, iure a laborum veniam, et velit vitae magni labore ipsum incidunt esse in quasi laboriosam architecto, nostrum facilis quidem dolor.</p>
+                    <button className="card-btn">Book tour</button>
                 </div>
             </div>
         </div>
