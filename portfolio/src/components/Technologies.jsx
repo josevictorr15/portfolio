@@ -1,7 +1,13 @@
 import React from 'react'
 import "./Technologies.css"
-import { DiHtml5, DiCss3, DiJsBadge, DiReact, DiJqueryLogo, DiBootstrap, DiGit } from "react-icons/di";
-import { BiLogoTypescript } from "react-icons/bi";
+import { DiJqueryLogo } from "react-icons/di";
+import  html  from "../assets/icons8-html.svg"
+import  css  from "../assets/icons8-css.svg"
+import  javascript  from "../assets/icons8-javascript.svg"
+import  typescript  from "../assets/icons8-typescript.svg"
+import  react  from "../assets/icons8-react.svg"
+import  git  from "../assets/icons8-git.svg"
+import  bootstrap  from "../assets/icons8-bootstrap.svg"
 
 const Technologies = () => {
   return (
@@ -11,37 +17,37 @@ const Technologies = () => {
         <div className="technologies">
             <div className='row'>
                 <div className="ability">
-                    <DiHtml5 className="ability-icon"/>
+                    <img src={html} className='ability-icon'/>
                     <p>HTML</p>
                 </div>
                 <div className="ability">
-                    <DiCss3 className="ability-icon"/>
+                    <img src={css} className='ability-icon'/>
                     <p>CSS</p>
                 </div>
                 <div className="ability">
-                    <DiJsBadge className="ability-icon"/>
+                    <img src={javascript} className='ability-icon'/>
                     <p>JavaScript</p>
                 </div>
                 <div className="ability">
-                    <BiLogoTypescript className="ability-icon"/>
+                    <img src={typescript} className='ability-icon'/>
                     <p>TypeScript</p>
                 </div>
             </div>
             <div className='row'>
                 <div className="ability">
-                    <DiReact className="ability-icon"/>
+                    <img src={react} className='ability-icon'/>
                     <p>React</p>
                 </div>
                 <div className="ability">
-                    <DiJqueryLogo className="ability-icon"/>
+                    <DiJqueryLogo className='ability-icon'/>
                     <p>jQuery</p>
                 </div>
                 <div className="ability">
-                    <DiBootstrap className="ability-icon"/>
+                    <img src={bootstrap} className='ability-icon'/>
                     <p>Bootstrap</p>
                 </div>
                 <div className="ability">
-                    <DiGit className="ability-icon"/>
+                    <img src={git} className='ability-icon'/>
                     <p>Git</p>
                 </div>
             </div>
