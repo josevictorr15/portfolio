@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .projects-container h3 {
@@ -9,101 +12,87 @@
     margin-bottom: 3rem;
 }
 
-.projects-card {
+.project {
     display: flex;
-    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
 }
 
-.card {
-    width: 400px;
-    height: 420px;
-    border-radius: 20px;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    position: relative;
-    padding: 1rem;
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-}
-
-.card:hover .card-body {
-    right: 0;
-}
-
-.card-img {
-    width: 100%;
-    height: 95%;
-    object-fit: cover;
-    border-radius: 15px;
-}
-
-.card-body {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: -100%;
-    position: absolute;
-    background: #1f3d4738;
-    backdrop-filter: blur(5px);
-    border-radius: 15px;
-    color: #fff;
-    padding: 30px;
+.project-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    transition: 1.5s;
+    gap: 1.3rem;
+    margin-right: 4rem;
+    text-align: end;
 }
 
-.card-title {
+.project-content h4 {
+    font-size: 20px;
+    text-align: end;
+}
+
+.project-content p {
+   color: #808080;
+}
+
+.project-img {
+    width:  90%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-tecnology img {
+    width: 40px;
+    height: 40px;
+}
+    
+.project-buttons button{
+    border: 2px solid #000;
     text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: .1em;
+    text-decoration: none;
+    background: none;
+    padding: 12px 20px;
+    min-width: 170px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
 }
 
-.card-info {
-    font-size: 16px;
-    line-height: 25px;
-    margin: 40px 0;
-    font-weight: 400;
+.project-buttons button:hover{
+    color: #fff;
 }
 
-.card-btn {
-    color: #ccc;
-    background-color: #0000;
-    width: 120px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-transform: capitalize;
-    border: none;
-    outline: none;
-    font-weight: 500;
+.project-buttons button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
 }
 
-.mac-btns {
-    display: flex;
-    margin-bottom: 0.7rem;
-    margin-left: 0.4rem;
-    gap: 0.6rem;
+.deploy::before {
+    transform: scaleX(0);
 }
 
-.red, .yellow, .green {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
+.repository::before {
+    transform: scaleY(0);
 }
 
-.red {
-    background-color: red;
+.deploy:hover::before {
+    transform: scaleX(1);
 }
 
-.yellow {
-    background-color: rgb(243, 243, 4);
-}
-
-.green {
-    background-color: green;
-}
-
-.project-icons img {
-    width: 50px;
-    height: 50px;
+.repository:hover::before {
+    transform: scaleY(1);
 }
