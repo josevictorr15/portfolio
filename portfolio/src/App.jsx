@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import Technologies from './components/Technologies'
+import Training from './components/Training'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Home />
     <Technologies />
     <Projects />
+    <Training />
     </>
   )
 }

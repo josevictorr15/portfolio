@@ -56,6 +56,7 @@ const Projects = () => {
             </div>
             <img src={calcImcImg} className='project-img'/>
         </div>
+        <a href="#">Ver todos os projetos</a>
     </div>
   )
 }
