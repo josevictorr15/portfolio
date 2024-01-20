@@ -1,5 +1,26 @@
 {
     "translation": {
-        "about": "About me"
+        "about": "About me",
+        "technologies": "Technologies",
+        "projects": "Projects",
+        "about1": "Web developer focused on frontend development since 2022",
+        "about2": "Studying Systems Analysis and Development",
+        "about3": "Looking for an opportunity to work as a developer",
+        "skills": "My skills",
+        "repository": "Repository",
+        "quizDescription": "A front-end quiz with questions about HTML, CSS, JavaScript and React. In this project I worked with componentization and not with React Dom, that is, there are no external dependencies on React.",
+        "calcDescription": "The BMI calculator helps you understand whether your weight is within the ideal range for your height. Made with React, this project provides the functionality to see your index and situation and compare it with the BMI table.",
+        "calcTitle": "BMI Calculator",
+        "formation": "Formation",
+        "faculty": "Analysis and Systems Development",
+        "courseWeb": "Complete Modern Web Course",
+        "frontend": "Front-end Training",
+        "teamWork": "Team work",
+        "resolution": "Problem Solving",
+        "learning": "Learning Agility",
+        "pressure": "Work under pressure",
+        "comunication": "Comunication",
+        "adaptability": "Capacidade de adaptação",
+        "flexibility": "Flexibility"
     }
 }

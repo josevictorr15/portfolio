@@ -1,5 +1,26 @@
 {
     "translation": {
-        "sobre": "Sobre mim"
+        "about": "Sobre mim",
+        "technologies": "Tecnologias",
+        "projects": "Projetos",
+        "about1": "Desenvolvedor Web com foco em desenvolvimento frontend desde 2022",
+        "about2": "Cursando Análise e Desenvolvimento de Sistemas",
+        "about3": "Buscando uma oportunidade para atuar como desenvolvedor",
+        "skills": "Minhas habilidades",
+        "repository": "Repositório",
+        "quizDescription": "Um quiz de front-end com perguntas sobre HTML, CSS, JavaScript e React. Neste projeto eu trabalhei com componentização e não com o React Dom, ou seja, não tem dependências externas do React.",
+        "calcDescription": "A calculadora do IMC ajuda a entender se o seu peso está dentro do limite ideal para a sua altura. Feito com React, este projeto disponibiliza a funcionalidade de ver o seu índice e sua situação e comparar com a tabela IMC.",
+        "calcTitle": "Calculadora de IMC",
+        "formation": "Formação",
+        "faculty": "Análise e Desenvolvimento de Sistemas",
+        "courseWeb": "Curso Web Moderno Completo",
+        "frontend": "Formação Front-end",
+        "teamWork": "Trabalho em equipe",
+        "resolution": "Resolução de Problemas",
+        "learning": "Agilidade de Aprendizado",
+        "pressure": "Trabalho sob pressão",
+        "comunication": "Comunicação",
+        "adaptability": "Capacidade de adaptação",
+        "flexibility": "Flexibilidade"
     }
 }

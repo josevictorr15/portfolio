@@ -28,7 +28,12 @@
 .about {
     display: flex;
     margin-bottom: 1rem;
+    align-items: center;
     gap: 0.4rem;
+}
+
+.about p {
+    width: 600px;
 }
 
 .link-buttons {

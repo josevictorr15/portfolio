@@ -5,10 +5,14 @@ import { FaUserGraduate } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
+
 import "./Home.css";
 
 
 const About = () => {
+  const  { t } = useTranslation()
+
   return (
     <div className="container">
         <img src={foto} alt="Foto de perfil" />
@@ -16,15 +20,15 @@ const About = () => {
           <h2>José Victor</h2>
           <div className="about">
             <FaLaptopCode />
-            <p>Desenvolvedor Web com foco em desenvolvimento frontend desde 2022</p>
+            <p>{t("about1")}</p>
           </div>
           <div className="about">
             <FaUserGraduate />
-            <p>Cursando Análise e Desenvolvimento de Sistemas</p>
+            <p>{t("about2")}</p>
           </div>
           <div className="about">
             <FaRocket />
-            <p>Buscando uma oportunidade para atuar como desenvolvedor</p>
+            <p>{t("about3")}</p>
           </div>
           <div className="link-buttons">
             <button>

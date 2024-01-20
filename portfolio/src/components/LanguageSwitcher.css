@@ -1,0 +1,13 @@
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.language-switcher > button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+}

@@ -8,12 +8,15 @@ import  typescript  from "../assets/icons8-typescript.svg"
 import  react  from "../assets/icons8-react.svg"
 import  git  from "../assets/icons8-git.svg"
 import  bootstrap  from "../assets/icons8-bootstrap.svg"
+import { useTranslation } from 'react-i18next';
 
 const Technologies = () => {
+    const { t } = useTranslation()
+
   return (
     <div className='technology-container'>
-        <h3>Tecnologias</h3>
-        <p id='my-ability'>Minhas habilidades</p>
+        <h3>{t("technologies")}</h3>
+        <p id='my-ability'>{t("skills")}</p>
         <div className="technologies">
             <div className='row'>
                 <div className="ability">
